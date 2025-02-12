@@ -21,7 +21,9 @@ tags:
 Было решено проверить виндовые уведомления, которые находятся по пути:
 `C:\Users\OMEN\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db`
 Открыв с помощью `DB Browser for SQLite` и просмотрев таблицу `Notification` можно обнаружить уведомление из мессенджера **Телеграм**:
-![[Pasted image 20250212035057.png]]
+
+![telegram](./telegram.png)
+
 > Answer: **telegram**
 
 ## Q2. What is the password for the protected ZIP file sent by the attacker to the employee?
@@ -35,7 +37,7 @@ tags:
 Архив содержит DOCX документ, и подозрительный LNK-файл ярлык с именем **templet.lnk**.
 
 Анализ файла на VirusTotal подтвердил его вредоносность:
-![[Pasted image 20250212035706.png]]
+![virustotal](./virustotal.png)
 
 Воспользовавшись утилитой **LECmd.exe**:
 ```bash
