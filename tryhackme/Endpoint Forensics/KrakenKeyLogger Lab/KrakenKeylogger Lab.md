@@ -22,7 +22,7 @@ tags:
 `C:\Users\OMEN\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db`
 Открыв с помощью `DB Browser for SQLite` и просмотрев таблицу `Notification` можно обнаружить уведомление из мессенджера **Телеграм**:
 
-![telegram](./telegram.png)
+![telegram](telegram.png)
 
 > Answer: **telegram**
 
@@ -37,7 +37,7 @@ tags:
 Архив содержит DOCX документ, и подозрительный LNK-файл ярлык с именем **templet.lnk**.
 
 Анализ файла на VirusTotal подтвердил его вредоносность:
-![virustotal](./virustotal.png)
+![virustotal](virustotal.png)
 
 Воспользовавшись утилитой **LECmd.exe**:
 ```bash
