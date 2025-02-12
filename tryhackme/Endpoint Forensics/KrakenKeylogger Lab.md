@@ -142,7 +142,7 @@ Argument.jlhgfjhdflghjhuhuh=/c "C:\Users\OMEN\AppData\Local\Temp\templet.lnk"
 Рассмотрим содержимое директории **AnyDesk**, а именно файл `C:Users\OMEN\AppData\Roaming\AnyDesk\ad.trace`.
 
 > Журнал **ad.trace** содержит отладочную информацию, что позволяет определить **IP-адрес**, с которого производилось подключение
-- 
+
 Открыв его с помощью текстового редактора, можно увидеть логи ПО AnyDesk.
 
 Поискав по словосочетанию `Connection established`, можно обнаружить следующую информацию:
